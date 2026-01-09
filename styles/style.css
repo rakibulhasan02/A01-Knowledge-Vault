@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+p,h1,h2,h3,h4,h5,h6{
+  cursor: default;
+  /* user-select: text; */
+}
 /* share-style */
 .fonts-inter{
   font-family: "Inter", sans-serif;
@@ -61,7 +64,7 @@ nav .menu a{
     font-weight: 500;
 }
 
-nav .btn{
+nav .btn {
     width: 164px;
     align-items: center;
     margin: 24px 0;
@@ -71,6 +74,7 @@ nav .btn{
     font-size: 16px;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 #banner{
@@ -147,6 +151,7 @@ nav .btn{
      font-weight: 500;
      background-color: #469165;
      margin-right: 16px;
+     cursor: pointer;
 }
 .banner-btn .works-btn{
     width: 198px;
@@ -159,6 +164,7 @@ nav .btn{
     color:#FFFFFF ;
      font-size: 16px;
       font-weight: 500;
+      cursor: pointer;
 }
 /* .dot-line::before {
   content: "";
@@ -351,10 +357,14 @@ footer{
   width: 220px;
   color: #FFFFFF;
 }
+.footer-info .footer-social i:hover{
+  cursor: pointer;
+}
 .footer-info .footer-social h4{
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
   margin-bottom: 16px;
 }
+
 

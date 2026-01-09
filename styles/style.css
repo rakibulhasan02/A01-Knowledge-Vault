@@ -319,3 +319,42 @@ nav .btn{
  
   vertical-align: middle;
 }
+footer{
+  width: 100%;
+    max-width: 1600px;
+    background-color: #001931;
+  padding: 120px 120px 30px 120px;
+}
+.footer-container{
+  max-width: 1360px;
+  /* border: 1px solid white; */
+  
+}
+.footer-container p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+}
+.footer-container .footer-info{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 790px; */
+  margin-bottom: 110px;
+
+}
+.footer-info img{
+    width: 139px;
+    height: 60px;
+}
+.footer-info .footer-social{
+  width: 220px;
+  color: #FFFFFF;
+}
+.footer-info .footer-social h4{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
